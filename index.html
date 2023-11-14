@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMP Store</title>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="./img/logo-vmp.png" alt="VMP Store Logo" class="nav-brand">
+            <ul class="nav-menu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">CATALOGO</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">POSTVENTA</a></li>
+                <li><a href="#">CONTACTO</a></li>
+
+            </ul>
+            <ul class="nav-menu-right">
+                <li>
+                    <a href="#">
+                        <h1 id= "verCarrito"  class= "ver-carrito">🛒<span id="cantidadCart" class="cantidad-cart"></span></h1>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+
+        <!-- showcase -->
+        <header class="showcase">
+            <h2>Grandes Noticias</h2>
+            <a href="#" class="btn">Descubre más <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+
+    </div>
+
+    <!-- shop content -->
+    <div id="shopContent" class="shop-content"></div>
+
+    <!-- modal container -->
+    <div id="modal-container" class="modal-container"></div>
+
+  
+    
+
+
+    
+<script src="./js/items.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/carrito.js"></script>
+</body>
+</html>
