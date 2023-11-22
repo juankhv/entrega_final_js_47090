@@ -15,7 +15,8 @@ const getItems = async () => {
         content.innerHTML = `
          <img src="${item.img}">
          <h3>${item.nombre}</h3>
-         <p class="price">$${item.precio}</p> 
+         <p class="price">$${item.precio}</p>
+     
         `;
     
         shopContent.append(content);
@@ -40,6 +41,10 @@ const getItems = async () => {
                   textTransform: "uppercase",
                   fontSize: "0.75rem"
                 },
+                offset: {
+                    x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+                    y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+                  },
                 onClick: function(){} // Callback after click
               }).showToast();
     

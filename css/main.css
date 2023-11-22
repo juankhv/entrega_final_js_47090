@@ -22,6 +22,7 @@ ul{
 .container {
     width: 90%;
     margin: auto;
+    
   }
 
   /* Navigation */
@@ -33,6 +34,9 @@ ul{
     align-items: center;
     height: 60px;
     padding: 20px 0;
+    background-color: white;
+    
+    
   }
 
   .nav-brand {
@@ -106,24 +110,28 @@ ul{
   /* Product Cards */
 
   .shop-content{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* display: flex; */
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
     margin-left: 80px;
     margin-right: 80px;
+    
   }
 
   .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
+    max-width: 95%;
     margin: auto;
     text-align: center;
+    padding: 10px;
   }
 
   .card > img{
-    width: 90%;
-    height: 250px;
+    max-width: 100%;
+    height: 300px;
   }
 
   .price{
@@ -153,7 +161,7 @@ ul{
   width: 80%;
   margin: 0 10%;
   max-height: 88vh;
-  color: #fff;
+  color: #121212;
   background-color: #121212;
   display: flex;
   flex-direction: column;
@@ -204,7 +212,35 @@ ul{
   padding: 20px;
   text-align: center;
   padding-top: 20px;
+  color: white;
 }
+
+.carrito-acciones-vaciar {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.carrito-acciones-comprar {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+
+}
+
+
 
 /* delete button item */
 .delete-product{
@@ -220,7 +256,7 @@ ul{
   font-size: 12px;
   padding: 4px;
   top: 37px;
-  right: 104px;
+  right: 45px;
   position: absolute;
   display: none;
 }

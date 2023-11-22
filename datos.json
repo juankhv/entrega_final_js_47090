@@ -1,32 +1,109 @@
 [
-    {
-        "id": 1,
-        "nombre": "Scooter",
-        "precio": 1000,
-        "img": "https://zeroelectricscooter.com/cdn/shop/products/zero10x_d9750b21-1a3b-4521-a407-10bbfe697fd3_600x600.png?v=1590231548",
-        "cantidad":1
-    },
     
     {
-        "id": 2,
-        "nombre": "Bicicleta Eléctrica",
-        "precio": 2000,
-        "img": "https://m.media-amazon.com/images/I/81JF-7pLLXL._AC_SL1500_.jpg",
-        "cantidad":1
-
-   },
-   {
-        "id": 3,
-        "nombre": "Moto Eléctrica",
-        "precio": 4000,
-        "img": "https://progreser.com/wp-content/uploads/2021/08/Thunder-1500-Starker-NEGRO-Motos-Zoom-ProgreSER-400x400.jpg",
-        "cantidad":1
+        "id": "scooter-01",
+        "nombre": "Scooter Zero 10x",
+        "precio": 1500,
+        "img": "./img/scooters/01.png",
+        "cantidad": 1
+        
     },
     {
-        "id": 4,
-        "nombre": "Mono Rueda",
+        "id": "scooter-02",
+        "nombre": "Scooter Migo City Tank",
+        "precio": 1200,
+        "img": "./img/scooters/02.png",
+        "cantidad": 1
+        
+    },
+    {
+        "id": "scooter-03",
+        "nombre": "Scooter Segway Ninebot F2+ Silla",
+        "precio": 1000,
+        "img": "./img/scooters/03.png",
+        "cantidad": 1
+      
+    },
+        
+    
+    {
+        "id": "scooter-04",
+        "nombre": "Scooter Wolf King GT Pro",
+        "precio": 2500,
+        "img": "./img/scooters/04.png",
+        "cantidad": 1
+        
+        
+    },
+
+   
+    {
+        "id": "bicicleta-01",
+        "nombre": "Bicicleta eléctrica INOKIM OZO E-Bike",
         "precio": 3000,
-        "img": "https://falabella.scene7.com/is/image/Falabella/gsc_115486595_1136590_1?wid=1500&hei=1500&qlt=70",
-        "cantidad":1
+        "img": "./img/bicicletas/01.png",
+        "cantidad": 1
+        
+    },
+    {
+        "id": "bicicleta-02",
+        "nombre": "Bicicleta eléctrica Ciclick Fat Folding",
+        "precio": 900,
+        "img": "./img/bicicletas/02.png",
+        "cantidad": 1
+        
+    },
+    {
+        "id": "bicicleta-03",
+        "nombre": "Bicicleta eléctrica FORTEZZA motor 250w",
+        "precio": 1100,
+        "img": "./img/bicicletas/03.png",
+        "cantidad": 1
+        
+        
+    },
+    {
+        "id": "bicicleta-04",
+        "nombre": "Bicicleta eléctrica moped Segway Ninebot C40",
+        "precio": 1500,
+        "img": "./img/bicicletas/04.png",
+        "cantidad": 1
+    },
+
+
+  
+    {
+        "id": "moto-01",
+        "nombre": "Moto eléctrica THUNDER 1500",
+        "precio": 2800,
+        "img": "./img/motos/01.png",
+        "cantidad": 1
+
+        
+    },
+    {
+        "id": "moto-02",
+        "nombre": "Moto electrica SUPER SOCO TC MAX",
+        "precio": 4000,
+        "img": "./img/motos/02.png",
+        "cantidad": 1
+        
+    },
+    {
+        "id": "moto-03",
+        "nombre": "Moto eléctrica SUPER SOCO CPX",
+        "precio": 3500,
+        "img": "./img/motos/03.png",
+        "cantidad": 1
+        
+    },
+    {
+        "id": "moto-04",
+        "nombre": "Moto eléctrica Segway Ninebot E100",
+        "precio": 2500,
+        "img": "./img/motos/04.png",
+        "cantidad": 1
+       
     }
-]
+
+]   

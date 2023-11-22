@@ -77,9 +77,11 @@ const mostrarCarrito = () => {
     
     modalContainer.append(totalBuy);
 
+
 };
 
 verCarrito.addEventListener("click", mostrarCarrito);
+
 
 const eliminarItem = (id) => {
     const foundId = carrito.find((element) => element.id === id);
